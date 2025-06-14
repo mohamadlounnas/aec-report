@@ -70,44 +70,44 @@ The SaaS model provides flexible subscription tiers to accommodate different far
 **Subscription Tiers:**
 ```ascii
 SaaS Subscription Model
-┌─────────────────────────────────────────────────────────────┐
-│                    BASIC TIER ($29/month)                   │
-│  ┌─────────────────────────────────────────────────────┐   │
+┌───────────────────────────────────────────────────────────┐
+│                    BASIC TIER ($29/month)                 │
+│  ┌────────────────────────────────────────────────────┐   │
 │  │  • Disease detection (up to 100 images/month)      │   │
 │  │  • Basic treatment recommendations                 │   │
 │  │  • Mobile app access                               │   │
 │  │  • Email support                                   │   │
 │  │  • Basic analytics dashboard                       │   │
-│  │                                                     │   │
+│  │                                                    │   │
 │  │  Target: Small farms (< 5 hectares)                │   │
-│  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                  PROFESSIONAL TIER ($89/month)              │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │  • Unlimited disease detection                     │   │
-│  │  • Advanced AI recommendations                     │   │
-│  │  • NDVI analysis and mapping                       │   │
-│  │  • Weather integration                             │   │
-│  │  • Priority support                                │   │
-│  │  • Advanced analytics and reporting                │   │
-│  │  • API access for integrations                     │   │
-│  │                                                     │   │
-│  │  Target: Medium farms (5-20 hectares)              │   │
-│  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                   ENTERPRISE TIER ($299/month)              │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │  • All Professional features                       │   │
-│  │  • Multi-farm management                           │   │
-│  │  • Custom AI model training                        │   │
-│  │  • Drone integration support                       │   │
-│  │  • Dedicated account manager                       │   │
-│  │  • Custom integrations                             │   │
-│  │  • White-label options                             │   │
-│  │                                                     │   │
-│  │  Target: Large operations (20+ hectares)           │   │
-│  └─────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────┘
+│  └────────────────────────────────────────────────────┘   │
+├───────────────────────────────────────────────────────────┤
+│                  PROFESSIONAL TIER ($89/month)            │
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  • Unlimited disease detection                      │  │
+│  │  • Advanced AI recommendations                      │  │
+│  │  • NDVI analysis and mapping                        │  │
+│  │  • Weather integration                              │  │
+│  │  • Priority support                                 │  │
+│  │  • Advanced analytics and reporting                 │  │
+│  │  • API access for integrations                      │  │
+│  │                                                     │  │
+│  │  Target: Medium farms (5-20 hectares)               │  │
+│  └─────────────────────────────────────────────────────┘  │
+├───────────────────────────────────────────────────────────┤
+│                   ENTERPRISE TIER ($299/month)            │
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  • All Professional features                        │  │
+│  │  • Multi-farm management                            │  │
+│  │  • Custom AI model training                         │  │
+│  │  • Drone integration support                        │  │
+│  │  • Dedicated account manager                        │  │
+│  │  • Custom integrations                              │  │
+│  │  • White-label options                              │  │
+│  │                                                     │  │
+│  │  Target: Large operations (20+ hectares)            │  │
+│  └─────────────────────────────────────────────────────┘  │
+└───────────────────────────────────────────────────────────┘
 ```
 
 ### Cloud Infrastructure Strategy
@@ -134,16 +134,16 @@ SaaS Performance Metrics
 │  └─────────────┘  └─────────────┘  └─────────────────────┘  │
 ├─────────────────────────────────────────────────────────────┤
 │                   RESPONSE TIME TARGETS                     │
-│  • API Response Time: < 200ms (95th percentile)            │
-│  • Image Processing: < 5 seconds                           │
-│  • Dashboard Loading: < 2 seconds                          │
-│  • Mobile App Sync: < 30 seconds                           │
+│  • API Response Time: < 200ms (95th percentile)             │
+│  • Image Processing: < 5 seconds                            │
+│  • Dashboard Loading: < 2 seconds                           │
+│  • Mobile App Sync: < 30 seconds                            │
 ├─────────────────────────────────────────────────────────────┤
 │                   SCALABILITY METRICS                       │
-│  • Concurrent Users: 10,000+ simultaneous                  │
-│  • Image Processing: 1M+ images per day                    │
-│  • Data Storage: Petabyte-scale capacity                   │
-│  • Geographic Coverage: 50+ countries                      │
+│  • Concurrent Users: 10,000+ simultaneous                   │
+│  • Image Processing: 1M+ images per day                     │
+│  • Data Storage: Petabyte-scale capacity                    │
+│  • Geographic Coverage: 50+ countries                       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -188,7 +188,7 @@ Scaling Architecture Design
 │                   AUTO-SCALING COMPONENTS                   │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
 │  │ Kubernetes  │  │   Load      │  │    Database         │  │
-│  │ Orchestration│  │ Balancing   │  │    Sharding         │  │
+│  │Orchestration│  │ Balancing   │  │    Sharding         │  │
 │  └─────────────┘  └─────────────┘  └─────────────────────┘  │
 ├─────────────────────────────────────────────────────────────┤
 │                   MONITORING & OPTIMIZATION                 │
@@ -210,26 +210,26 @@ Scaling Architecture Design
 **Revenue Projections:**
 ```ascii
 Revenue Growth Projections
-┌─────────────────────────────────────────────────────────────┐
-│                   5-YEAR REVENUE FORECAST                   │
+┌────────────────────────────────────────────────────────────┐
+│                   5-YEAR REVENUE FORECAST                  │
 │  ┌─────────────────────────────────────────────────────┐   │
 │  │                                                     │   │
-│  │  Year 1:  $   500K  (1,000 subscribers)            │   │
-│  │  Year 2:  $ 2,500K  (5,000 subscribers)            │   │
-│  │  Year 3:  $ 8,000K  (15,000 subscribers)           │   │
-│  │  Year 4:  $18,000K  (30,000 subscribers)           │   │
-│  │  Year 5:  $35,000K  (50,000 subscribers)           │   │
+│  │  Year 1:  $   500K  (1,000 subscribers)             │   │
+│  │  Year 2:  $ 2,500K  (5,000 subscribers)             │   │
+│  │  Year 3:  $ 8,000K  (15,000 subscribers)            │   │
+│  │  Year 4:  $18,000K  (30,000 subscribers)            │   │
+│  │  Year 5:  $35,000K  (50,000 subscribers)            │   │
 │  │                                                     │   │
-│  │  Total 5-Year Revenue: $64M                        │   │
+│  │  Total 5-Year Revenue: $64M                         │   │
 │  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                   MARKET PENETRATION TARGETS                │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
-│  │   Algeria   │  │ North Africa│  │   Mediterranean     │  │
-│  │    25%      │  │     15%     │  │        8%           │  │
-│  │ Market Share│  │Market Share │  │   Market Share      │  │
-│  └─────────────┘  └─────────────┘  └─────────────────────┘  │
-└─────────────────────────────────────────────────────────────┘
+├────────────────────────────────────────────────────────────┤
+│                   MARKET PENETRATION TARGETS               │
+│  ┌─────────────┐  ┌─────────────┐  ┌────────────────────┐  │
+│  │   Algeria   │  │ North Africa│  │   Mediterranean    │  │
+│  │    25%      │  │     15%     │  │        8%          │  │
+│  │ Market Share│  │Market Share │  │   Market Share     │  │
+│  └─────────────┘  └─────────────┘  └────────────────────┘  │
+└────────────────────────────────────────────────────────────┘
 ```
 
 ## Government Integration
@@ -277,34 +277,34 @@ Government Integration Framework
 **Partnership Benefits:**
 ```ascii
 PPP Benefits Matrix
-┌─────────────────────────────────────────────────────────────┐
-│                   GOVERNMENT BENEFITS                       │
+┌────────────────────────────────────────────────────────────┐
+│                   GOVERNMENT BENEFITS                      │
 │  ┌─────────────────────────────────────────────────────┐   │
 │  │  • Enhanced agricultural productivity               │   │
-│  │  • Reduced environmental impact                    │   │
-│  │  • Technology sector development                   │   │
-│  │  • Rural economic development                      │   │
-│  │  • Food security improvement                       │   │
+│  │  • Reduced environmental impact                     │   │
+│  │  • Technology sector development                    │   │
+│  │  • Rural economic development                       │   │
+│  │  • Food security improvement                        │   │
 │  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                   PRIVATE SECTOR BENEFITS                   │
+├────────────────────────────────────────────────────────────┤
+│                   PRIVATE SECTOR BENEFITS                  │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │  • Market access and government support            │   │
-│  │  • Reduced regulatory barriers                     │   │
-│  │  • Access to public funding                        │   │
-│  │  • Credibility and validation                      │   │
-│  │  • Sustainable revenue model                       │   │
+│  │  • Market access and government support             │   │
+│  │  • Reduced regulatory barriers                      │   │
+│  │  • Access to public funding                         │   │
+│  │  • Credibility and validation                       │   │
+│  │  • Sustainable revenue model                        │   │
 │  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                   FARMER BENEFITS                           │
+├────────────────────────────────────────────────────────────┤
+│                   FARMER BENEFITS                          │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │  • Subsidized technology access                    │   │
-│  │  • Government-backed training programs             │   │
-│  │  • Technical support infrastructure               │   │
-│  │  • Market premium for quality products             │   │
-│  │  • Long-term sustainability assurance              │   │
+│  │  • Subsidized technology access                     │   │
+│  │  • Government-backed training programs              │   │
+│  │  • Technical support infrastructure                 │   │
+│  │  • Market premium for quality products              │   │
+│  │  • Long-term sustainability assurance               │   │
 │  └─────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────┘
 ```
 
 ### Digital Agriculture Initiative
@@ -334,7 +334,7 @@ Regional Cooperation Framework
 │                   MAGHREB INTEGRATION                       │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
 │  │   Morocco   │  │   Tunisia   │  │      Libya          │  │
-│  │ Partnership │  │ Collaboration│  │   Cooperation       │  │
+│  │ Partnership │  │Collaboration│  │   Cooperation       │  │
 │  └─────────────┘  └─────────────┘  └─────────────────────┘  │
 ├─────────────────────────────────────────────────────────────┤
 │                   AFRICAN UNION PROGRAMS                    │
@@ -343,7 +343,7 @@ Regional Cooperation Framework
 │  │ Alignment   │  │ Programs    │  │   Funding           │  │
 │  └─────────────┘  └─────────────┘  └─────────────────────┘  │
 ├─────────────────────────────────────────────────────────────┤
-│                   MEDITERRANEAN COOPERATION                  │
+│                   MEDITERRANEAN COOPERATION                 │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
 │  │    EU       │  │   CIHEAM    │  │      FAO            │  │
 │  │ Programs    │  │ Partnership │  │   Initiatives       │  │
