@@ -59,7 +59,10 @@
 - **Precision Targeting:** 40-60% chemical reduction through intelligent application
 
 ## What I Say:
-"Our solution is a three-tier engineering system I designed to address these challenges systematically. At the core, we use computer vision with CNN and YOLO architectures achieving 96% disease detection accuracy. I integrated NDVI calculation for real-time vegetation health assessment. The key innovation is our edge computing approach - the system operates offline using local processing, which is critical for areas with limited connectivity. Our precision targeting system reduces chemical usage by 40-60% through intelligent, targeted application rather than uniform spraying."
+"Our solution is a three-tier engineering system I designed to address these challenges systematically. At the core, we use computer vision with with AI agent that run diffrent ai models. CNN and YOLO architectures achieving 99% disease detection accuracy.
+additonal data cames from NDVI calculation for real-time vegetation health assessment. The key innovation is our edge computing approach - the system operates offline using local processing, which is critical for areas with limited connectivity.
+our LLM-ai agent are resposivel for preossing diffrent data (CNN + YOLO + NDVI + Snsers and weather data) and making decisions on treatment application.
+ Our precision targeting system reduces chemical usage by 40-60% through intelligent, targeted application rather than uniform spraying."
 
 ## View Suggestions:
 - Draw the system architecture on whiteboard if available
