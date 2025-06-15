@@ -40,18 +40,18 @@ Boumerdes province, located in northern Algeria along the Mediterranean coast, r
 **Climate Characteristics:**
 ```ascii
 Mediterranean Climate Profile - Boumerdes
-┌─────────────────────────────────────────┐
-│ Temperature (°C)                        │
-│ 35 ┤                                    │
-│ 30 ┤     ╭─╮                           │
-│ 25 ┤   ╭─╯ ╰─╮                         │
-│ 20 ┤ ╭─╯     ╰─╮                       │
-│ 15 ┤╭╯         ╰─╮                     │
-│ 10 ┤╯             ╰─╮                  │
-│  5 ┤                ╰─╮                │
-│  0 └┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─           │
-│    J F M A M J J A S O N D             │
-└─────────────────────────────────────────┘
+┌───────────────────────────────┐
+│ Temperature (°C)              │
+│ 35 ┤                          │
+│ 30 ┤     ╭─╮                  │
+│ 25 ┤   ╭─╯ ╰─╮                │
+│ 20 ┤ ╭─╯     ╰─╮              │
+│ 15 ┤╭╯         ╰─╮            │
+│ 10 ┤╯             ╰─╮         │
+│  5 ┤                ╰─╮       │
+│  0 └┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─  │
+│    J F M A M J J A S O N D    │
+└───────────────────────────────┘
 ```
 
 - **Average Temperature:** 18°C (ranging from 11°C in winter to 26°C in summer)
@@ -97,13 +97,13 @@ Mediterranean Climate Profile - Boumerdes
 ```ascii
 Cost Structure - Traditional vs. Precision Agriculture
 ┌─────────────────────────────────────────────────┐
-│                Traditional    │    Precision     │
+│                Traditional    │    Precision    │
 ├─────────────────────────────────────────────────┤
-│ Chemical Costs     40%        │       25%        │
-│ Labor Costs        35%        │       20%        │
-│ Equipment          15%        │       30%        │
-│ Monitoring          5%        │       15%        │
-│ Other               5%        │       10%        │
+│ Chemical Costs     40%        │       25%       │
+│ Labor Costs        35%        │       20%       │
+│ Equipment          15%        │       30%       │
+│ Monitoring          5%        │       15%       │
+│ Other               5%        │       10%       │
 └─────────────────────────────────────────────────┘
 ```
 

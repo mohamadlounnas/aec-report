@@ -1,12 +1,13 @@
 # Executive Summary
-
+Sustainable Automation of Phytosanitary Treatments for Vineyards
 ## Project Overview
 
-The "Sustainable Automation of Phytosanitary Treatments for Vineyards" project presents an innovative AI-IoT solution specifically designed for table grape cultivation in Boumerdes, Algeria. This interdisciplinary research combines Artificial Intelligence, Internet of Things (IoT), Mechatronics, and Environmental Engineering to address critical challenges facing local vineyard management.
+this project project presents an AI/iot solution specifically designed for table grape cultivation in Boumerdes.
+This research combines AI, IoT, Mechatronics, and Environmental engineering tring to fix critical challenges facing local vineyard farmers.
 
-**Target Region:** Boumerdes, Algeria  
+**Target Region:** Boumerdes
 **Primary Crop:** Table grapes  
-**Technology Integration:** AI + IoT + Mechatronics + Environmental Engineering
+**Technologies:** AI + IoT + Mechatronics + Environmental Engineering
 
 ## Problem Statement
 
@@ -17,40 +18,38 @@ Table grape cultivation in Boumerdes faces significant threats from fungal disea
 - **Operational Challenges:** Declining agricultural labor and inability to target specific affected areas
 
 ## Proposed Solution Architecture
+basic setup requires at list single RGB or IR camera, GPS.
+other components like weather sensors, microscopic cameras, and drones are optional but enhance the system's capabilities.
 
 ```ascii
 ┌─────────────────────────────────────────────────────────────┐
-│                    SYSTEM OVERVIEW                          │
+│           SYSTEM OVERVIEW (With all upgrades)               │
 ├─────────────────┬─────────────────┬─────────────────────────┤
 │  DATA COLLECTION│   AI PROCESSING │   TREATMENT APPLICATION │
 │                 │                 │                         │
-│ • RGB Cameras   │ • NDVI Analysis │ • Manual Support       │
-│ • IR Cameras    │ • Disease Det.  │ • Semi-Automated       │
-│ • Microscopic   │ • Treatment Rec.│ • Fully Autonomous     │
-│ • Drone Imagery │ • YOLO Vision   │ • Smart Spreading      │
-│ • GPS/Weather   │ • Local AI      │ • ESP32 Control        │
+│ • RGB Cameras*  │ • LLMs (high)   │ • Manual Support        │
+│ • GPS/Weather   │ • NDVI Analysis │ • ESP32 Control         │
+│ • IR Cameras    │ • Disease Det.  │ • Semi-Automated        │
+│ • Microscopic   │ • Treatment Rec.│ • Fully Autonomous      │
+│ • Drone Imagery │ • YOLO Vision   │ • Smart Spreading       │
 └─────────────────┴─────────────────┴─────────────────────────┘
 ```
 
 ### Core Components
-
-1. **Multimodal Data Collection**
-   - Semi-manual worker-operated devices with virtual field mapping
-   - Autonomous robot navigation systems
-   - Drone-based RGB and IR imagery
+1. **Data Collection Subsystem**
+   - Semi-manual and autonomous data collection devices
+   - RGB and IR cameras for imaging
    - Environmental sensors (GPS, weather, temporal data)
-
-2. **AI Processing Engine**
-   - Local-first multimodal AI using custom or general models (Gemini/OpenAI)
-   - NDVI mapping with specialized modules
-   - Disease detection with percentage confidence scores
-   - Treatment recommendations with optimized chemical concentrations
-
-3. **Intelligent Treatment Application**
-   - Manual app-guided application
-   - Semi-automated vehicle extensions with dual tanks
-   - Fully autonomous robotic systems
-   - Specialized spreading mechanism (rotating pipes, 1m spacing, 30° rotation at 2rpm)
+   - Drone-based imagery for large area coverage
+2. **AI Processing Subsystem**
+   - AI Agent (it self can use mutiple models like Gemini or OpenAI or local trained one)
+   - NDVI mapping and disease detection models
+   - Treatment recommendation engine with optimized chemical concentrations
+3. **Spreading System**
+   - Spreading device (controlle by ESP32) for setting exact abount of drug automaticly
+   - vecaicle for even smart spreading
+   - helper arm to cover hard spots (halped with camera detecting leafs not wat)
+   - full-autonomous robotic systems for large scale operations
 
 ## Key Innovation Points
 
