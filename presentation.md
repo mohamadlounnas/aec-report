@@ -113,7 +113,9 @@ and designed embedded systems for real-time edge processing on ARM-based hardwar
 - **Field Testing:** Successful deployment across varied Mediterranean terrain
 
 ## What I Say:
-"Our engineering validation demonstrates the system's effectiveness in solving the core problems. We achieved 47% reduction in chemical usage while maintaining 96% disease detection accuracy - this proves our precision targeting works. The system improved yields by 23% while reducing environmental impact. In terms of technical performance, we maintained 89% system uptime in challenging field conditions, and our YOLO detection processes at over 30 frames per second for real-time operation. I've successfully tested the system across varied Mediterranean terrain, proving the robustness of our engineering approach."
+"Our engineering validation demonstrates the system's effectiveness in solving the core problems. we istimate to achive +40% reduction in chemical usage while maintaining 99% disease detection accuracy - this proves our precision targeting works. The system can improved yields by +20% while reducing environmental impacts.
+
+thanks to YOLO model, our detection processes can be over 30 frames per second for real-time operation."
 
 ## View Suggestions:
 - Lead with the strongest technical metrics (47% reduction, 96% accuracy)
@@ -135,7 +137,7 @@ and designed embedded systems for real-time edge processing on ARM-based hardwar
 - **Maintenance Design:** Self-diagnostic systems with remote monitoring capabilities
 
 ## What I Say:
-"I designed the system with scalability as a core engineering principle. The modular architecture allows deployment from basic $2,500 sensor systems to full $85,000 autonomous platforms, depending on farm needs and technical requirements. Our edge computing approach scales from single-farm processing to regional networks. The engineering is adaptable - I can transfer this technology to different crops and Mediterranean climates. Most importantly, I designed it to be infrastructure-independent, working reliably with or without internet connectivity, and included self-diagnostic systems for remote monitoring and maintenance."
+"We designed the system with scalability as a core engineering principle. The modular architecture allows deployment from basic sensor systems to full autonomous platforms, depending on farm needs and technical requirements. Our edge computing approach scales from single-farm processing to regional networks. The engineering is adaptable - I can transfer this technology to different crops and Mediterranean climates. Most importantly, We designed it to be self-hosted, working reliably sync with internet the minimaly, and self-diagnostic (Logs) systems for remote monitoring and maintenance."
 
 ## View Suggestions:
 - Emphasize the engineering flexibility and modularity
@@ -157,35 +159,13 @@ and designed embedded systems for real-time edge processing on ARM-based hardwar
 - **Technical Milestones:** 99% detection accuracy, 60% chemical reduction, full autonomy
 
 ## What I Say:
-"Our technical development roadmap focuses on continuous engineering improvement. In Phase 1, I'm optimizing our AI models and enhancing edge computing performance. Phase 2 involves refining the mechanical systems and improving autonomous navigation algorithms. Phase 3 expands the technology to multiple crops and different climate zones. My R&D priorities are 40% on AI and machine learning advancement, 30% on hardware optimization, 20% on system integration, and 10% on extensive field testing. Our technical milestones target 99% detection accuracy, 60% chemical reduction, and full autonomous operation."
+"Our technical development roadmap focuses on continuous engineering improvement. In Phase 1, start by the basic softwere and database, then the AI agent to enhancing edge computing performance. Phase 2 involves refining the mechanical systems and improving autonomous navigation algorithms. Phase 3 expands the technology to multiple crops and different climate zones. Our focus are 40% on AI and machine learning advancement, 30% on hardware optimization, 20% on system integration (softwere and infra structe and network), and 10% on extensive field testing (the Pesticide mechanics need more tests to find best solutions)."
 
 ## View Suggestions:
 - Focus on technical advancement rather than funding
 - Show clear engineering milestones and objectives
 - Emphasize continuous improvement and innovation
 - Highlight the systematic approach to technology development
-
----
-
-# Technical Collaboration Opportunities
-
-**System Note:** Focus on engineering collaboration and technical partnerships rather than business partnerships.
-
-## Content:
-- **Hardware Integration:** Collaboration on sensor systems and mechanical components
-- **Software Development:** Joint AI model development and edge computing optimization
-- **Research Partnerships:** Collaborative research with agricultural and engineering institutions
-- **Technology Transfer:** Adaptation of core technologies to other agricultural applications
-- **Standards Development:** Contributing to precision agriculture technical standards
-
-## What I Say:
-"I see several opportunities for technical collaboration. We can work together on hardware integration, particularly in sensor systems and mechanical components where your expertise could enhance our platform. There's significant potential for joint software development, especially in AI model advancement and edge computing optimization. I'm actively collaborating with agricultural and engineering institutions on research that could benefit from your technical input. The core technologies I've developed are adaptable to other agricultural applications, creating opportunities for technology transfer. Additionally, we can contribute together to developing technical standards for precision agriculture systems."
-
-## View Suggestions:
-- Focus on technical synergies and engineering collaboration
-- Show how their expertise can enhance the technical solution
-- Emphasize joint research and development opportunities
-- Highlight the potential for technology transfer and standards development
 
 ---
 
