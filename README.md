@@ -34,22 +34,22 @@ Agriculture in Mediterranean regions faces significant challenges:
 ### Three-Tier Engineering System
 
 ```ascii
-┌─────────────────────────────────────────────────────────────┐
-│                    TIER 1: MANUAL                           │
+┌────────────────────────────────────────────────────────────┐
+│                    TIER 1: MANUAL                          │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │  Mobile App + Basic Sensors + Manual Application   │   │
+│  │  Mobile App + Basic Sensors + Manual Application    │   │
 │  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                  TIER 2: SEMI-AUTOMATED                     │
+├────────────────────────────────────────────────────────────┤
+│                  TIER 2: SEMI-AUTOMATED                    │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │  AI Detection + Vehicle Integration + Guided App   │   │
+│  │  AI Detection + Vehicle Integration + Guided App    │   │
 │  └─────────────────────────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                  TIER 3: FULLY AUTONOMOUS                   │
+├────────────────────────────────────────────────────────────┤
+│                  TIER 3: FULLY AUTONOMOUS                  │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │  Robotic Platform + AI Agent + Precision Targeting │   │
+│  │  Robotic Platform + AI Agent + Precision Targeting  │   │
 │  └─────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────┘
 ```
 
 ### Core Components
@@ -111,122 +111,6 @@ Agriculture in Mediterranean regions faces significant challenges:
 - **System Uptime**: 89% operational reliability
 - **Energy Efficiency**: 40% lower power consumption
 
-## Installation
-
-### Prerequisites
-
-```bash
-# Python dependencies
-python >= 3.8
-pytorch >= 1.9.0
-opencv-python >= 4.5.0
-numpy >= 1.21.0
-
-# Flutter dependencies
-flutter >= 3.0.0
-dart >= 2.17.0
-
-# System dependencies
-docker >= 20.10.0
-docker-compose >= 1.29.0
-```
-
-### Quick Start
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/vineyard-automation.git
-cd vineyard-automation
-```
-
-2. **Set up the AI processing environment**
-```bash
-cd ai-processing
-pip install -r requirements.txt
-python setup.py install
-```
-
-3. **Deploy edge computing stack**
-```bash
-cd edge-computing
-docker-compose up -d
-```
-
-4. **Build mobile application**
-```bash
-cd mobile-app
-flutter pub get
-flutter build apk
-```
-
-5. **Configure hardware sensors**
-```bash
-cd hardware-config
-python configure_sensors.py --config config/default.yaml
-```
-
-## Usage
-
-### Basic Disease Detection
-
-```python
-from vineyard_ai import DiseaseDetector, NDVICalculator
-
-# Initialize detection system
-detector = DiseaseDetector(model_path="models/cnn_disease_v2.pth")
-ndvi_calc = NDVICalculator()
-
-# Process image
-image = load_image("vineyard_sample.jpg")
-diseases = detector.detect(image)
-health_index = ndvi_calc.calculate(image)
-
-print(f"Detected diseases: {diseases}")
-print(f"NDVI health index: {health_index}")
-```
-
-### LLM-AI Agent Integration
-
-```python
-from vineyard_ai import AIAgent
-
-# Initialize multimodal AI agent
-agent = AIAgent(
-    models=["cnn_disease", "yolo_detection", "ndvi_analysis"],
-    sensors=["temperature", "humidity", "soil_moisture"]
-)
-
-# Process multimodal data
-decision = agent.process_and_decide({
-    "rgb_image": image_data,
-    "sensor_data": sensor_readings,
-    "weather_data": weather_info,
-    "historical_data": farm_history
-})
-
-print(f"Treatment recommendation: {decision}")
-```
-
-### Precision Application Control
-
-```python
-from vineyard_hardware import PrecisionSprayer
-
-# Initialize spraying system
-sprayer = PrecisionSprayer(
-    pipe_spacing=1.0,  # 1 meter spacing
-    rotation_angle=30,  # 30 degree rotation
-    rotation_speed=2    # 2 RPM
-)
-
-# Execute targeted treatment
-sprayer.apply_treatment(
-    target_coordinates=detection_results,
-    chemical_type="organic_fungicide",
-    application_rate=0.5  # 50% of standard rate
-)
-```
-
 ## Research Contributions
 
 ### Novel Approaches
@@ -257,15 +141,15 @@ sprayer.apply_treatment(
 
 ```ascii
 Disease Detection Accuracy by Type
-┌─────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────┐
 │ Disease Type        │ Accuracy │ Precision │ Recall │ F1   │
-├─────────────────────────────────────────────────────────────┤
+├────────────────────────────────────────────────────────────┤
 │ Downy Mildew        │  99.2%   │   98.8%   │ 99.6%  │ 99.2 │
 │ Powdery Mildew      │  98.9%   │   99.1%   │ 98.7%  │ 98.9 │
 │ Black Rot           │  99.5%   │   99.3%   │ 99.7%  │ 99.5 │
 │ Botrytis Cinerea    │  98.7%   │   98.5%   │ 98.9%  │ 98.7 │
 │ Overall Average     │  99.18%  │   98.9%   │ 99.2%  │ 99.1 │
-└─────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────┘
 ```
 
 ## Contributing
