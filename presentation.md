@@ -59,9 +59,9 @@
 - **Precision Targeting:** 40-60% chemical reduction through intelligent application
 
 ## What I Say:
-"Our solution is a three-tier engineering system I designed to address these challenges systematically. At the core, we use computer vision with with AI agent that run diffrent ai models. CNN and YOLO architectures achieving 99% disease detection accuracy.
+"Our solution is a three-tier engineering system I designed to address these challenges systematically. At the core, we use computer vision with with AI agent that run diffrent ai models. CNN and YOLO architectures achieving 99.18% disease detection accuracy.
 additonal data cames from NDVI calculation for real-time vegetation health assessment. The key innovation is our edge computing approach - the system operates offline using local processing, which is critical for areas with limited connectivity.
-our LLM-ai agent are resposivel for preossing diffrent data (CNN + YOLO + NDVI + Snsers and weather data) and making decisions on treatment application.
+our LLM-ai agent are resposivel for preossing diffrent data (CNN and YOLO + NDVI + Snsers and weather data + exta images that cant be handle by YODO model) and making decisions on treatment application.
  Our precision targeting system reduces chemical usage by 40-60% through intelligent, targeted application rather than uniform spraying."
 
 ## View Suggestions:
@@ -79,12 +79,19 @@ our LLM-ai agent are resposivel for preossing diffrent data (CNN + YOLO + NDVI +
 ## Content:
 - **Advanced Imaging Systems:** IR thermal cameras + NASA-grade hyperspectral analysis
 - **YOLO-Based Precision Targeting:** Real-time leaf detection with water-sensitive algorithms
+- **LLM-AI Agent:** Multimodal processing for complex decision-making
 - **Mechanical Engineering:** Rotating pipe system, 1m spacing, 30° rotation at 2 RPM
 - **Drone Integration:** RGB/IR imagery processing with computer vision enhancement
 - **Embedded Systems:** Real-time edge processing on ARM-based hardware
 
 ## What I Say:
-"I engineered several key innovations to solve the technical challenges. First, our advanced imaging system combines IR thermal cameras with NASA-grade hyperspectral analysis for early disease detection. I developed a YOLO-based targeting system that identifies individual leaves and applies treatments only to non-dry, water-sensitive areas. The mechanical system uses precisely engineered rotating pipes with 1-meter spacing and 30-degree rotation at 2 RPM for optimal coverage. I integrated drone systems for aerial RGB and IR imagery processing, and designed embedded systems for real-time edge processing on ARM-based hardware, eliminating the need for constant internet connectivity."
+"We engineered several key innovations to solve the technical challenges. First, our advanced imaging system combines mutiple datetypes and source,
+our system work at basic level RGB images and infromation of temprature and humidty that cuperted automaticly,
+we can also with help of microscopic images detect desise befor weeks!
+
+we have upgrades with IR thermal cameras with NASA's hyperspectral analysis for early disease detection. Our YOLO-based targeting system that identifies individual leaves and applies treatments only to non-dry, water-sensitive areas. The mechanical system uses precisely engineered rotating pipes with 1-meter spacing and 30-degree rotation at 2 RPM for optimal coverage.
+
+and designed embedded systems for real-time edge processing on ARM-based hardware, eliminating the need for constant internet connectivity."
 
 ## View Suggestions:
 - Emphasize the engineering complexity and innovation
